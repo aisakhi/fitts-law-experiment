@@ -2,13 +2,14 @@ new Vue({
   el: '#app',
   data: {
     MAX_NUM_TRIAL_SET: 2,
-    MAX_NUM_TRIALS: 10,
+    MAX_NUM_TRIALS: 1,
     hasExperimentStarted: false,
     hasExperimentEnded: false,
     hasTrialEnded: false,
     hasTrialsSetEnded: true,
     beforeTrialsSetStart: true,
     numTrials: 0,
+    max_num_trial:2,
     numTrialsSet: 0,
     amplitudes: [
       {
